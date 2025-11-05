@@ -3,26 +3,100 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portifolio</title>
-    <style>
-        .body{
-            background-color: rgb(15, 15, 15);
+    <title>My Landing Page</title>
+       <style>
+
+         @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+        body{
+            font-family: "Bebas Neue", sans-serif;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
         }
-        .d1{
-            text-align: center;
-            color: whitesmoke;
+        .p1{
+            margin: 0;
+            padding: 15px;
+            font-size: 20px;
+        }
+        p{
+            margin: 0;
         }
 
+        h1{
+            font-size: 120px;
+            font-family: "Bebas Neue", sans-serif;
+            margin: 0;
+        }
+
+        img{
+            width: 30px;
+            height: 30px;
+        }
+
+        section{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+        }
+        
+        main{
+            width: 100%;
+            padding-top: 20px;
+
+        }
+
+        .circulo{
+            border: 3px solid darkslategray;
+            padding: 30px;
+            border-radius: 50% 50% 50% 50%;
+            box-shadow: 5px 5px 0 darkslategrey;
+
+        }
+        
+        .content-section{
+            padding: 60px 20px;
+            max-width: 900px;
+            margin: 0 auto;
+            background-color: #ffffff;
+
+        }
+        #hero-wrapper{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+        }
+        
     </style>
+
 </head>
-<body class="body">
-    <div class="d1">
-    <h1>Hello world!</h1>
-    <p>Sou Otavio, eu tenho 15 anos</p>    
-    <br><br>
-    <h2>Educação</h2>
-    <p>atualmente estou no ensino médio com tecnico integrado em Internet, estudo no Cedup Domicio de Freitas. Tambem estou em um curso de programação na Coletivo</p>
-    
-    </div>
-</body>
+<body>
+
+    <section>
+        <header id="hero-wrapper">
+            <div class="circulo">
+            <img src="https://whatemoji.org/wp-content/uploads/2020/07/Laptop-Emoji.png"/>
+            </div>
+            <p class="p1">Olá Mundo, meu nome é</p>
+            <h1>Otavio</h1>
+        </header>
+    </section>
+
+    <main>
+
+        <section class="content-section" id="sobre-mim">
+            <h2>Sobre mim</h2>
+            <p><strong>(introduçao, preencher)</strong></p>
+            <p><strong>(descriçao, preencher)</strong></p>
+
+            
+        </section>
+    </main>
+
 </html>
